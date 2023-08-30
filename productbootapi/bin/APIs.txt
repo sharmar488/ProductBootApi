@@ -1,0 +1,23 @@
+GET
+http://localhost:5000/products
+
+POST
+http://localhost:5000/products
+{
+	"name" : "USB 16GB",
+	"description" : "USB Storage",
+	"price" : 10
+}
+
+GET
+http://localhost:5000/products/2
+
+PUT
+http://localhost:5000/products
+{
+	"id" : 2,
+	"name" : "WD 4TB",
+	"description" : "Portable Storage",
+	"price" : 70
+}
+
